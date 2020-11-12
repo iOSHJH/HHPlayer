@@ -127,6 +127,7 @@
 		0FD6E63B255C08570060AF54 /* ZFTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD6E616255C08570060AF54 /* ZFTableHeaderView.m */; };
 		0FD6E63C255C08570060AF54 /* ZFADControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD6E617255C08570060AF54 /* ZFADControlView.m */; };
 		0FD6E63D255C08570060AF54 /* ZFDouYinControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD6E618255C08570060AF54 /* ZFDouYinControlView.m */; };
+		0FFF0289255CE7C700526CE0 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFF0288255CE7C700526CE0 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -370,6 +371,7 @@
 		0FD6E616255C08570060AF54 /* ZFTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableHeaderView.m; sourceTree = "<group>"; };
 		0FD6E617255C08570060AF54 /* ZFADControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFADControlView.m; sourceTree = "<group>"; };
 		0FD6E618255C08570060AF54 /* ZFDouYinControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDouYinControlView.m; sourceTree = "<group>"; };
+		0FFF0288255CE7C700526CE0 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,6 +379,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FFF0289255CE7C700526CE0 /* IJKMediaFramework.framework in Frameworks */,
 				0FD6E5BA255C07D50060AF54 /* libc++.tbd in Frameworks */,
 				0FD6E5B7255C07A70060AF54 /* libz.tbd in Frameworks */,
 			);
@@ -677,6 +680,7 @@
 		0FD6E571255C04BB0060AF54 /* ijkplayer */ = {
 			isa = PBXGroup;
 			children = (
+				0FFF0288255CE7C700526CE0 /* IJKMediaFramework.framework */,
 				0FD6E572255C04BB0060AF54 /* ZFIJKPlayerManager.h */,
 				0FD6E573255C04BB0060AF54 /* ZFIJKPlayerManager.m */,
 			);

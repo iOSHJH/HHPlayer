@@ -105,14 +105,14 @@
     [self removeMovieNotificationObservers];
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation{
-    return UIInterfaceOrientationIsLandscape(toInterfaceOrientation);
-}
-
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations
-{
-    return UIInterfaceOrientationMaskLandscape;
-}
+//- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation{
+//    return UIInterfaceOrientationIsLandscape(toInterfaceOrientation);
+//}
+//
+//- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+//{
+//    return UIInterfaceOrientationMaskLandscape;
+//}
 
 - (void)didReceiveMemoryWarning
 {
