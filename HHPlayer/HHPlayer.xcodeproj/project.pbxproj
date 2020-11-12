@@ -88,7 +88,6 @@
 		0FD6E5AD255C04BB0060AF54 /* ZFSpeedLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD6E58B255C04BB0060AF54 /* ZFSpeedLoadingView.m */; };
 		0FD6E5AE255C04BB0060AF54 /* ZFPortraitControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD6E58D255C04BB0060AF54 /* ZFPortraitControlView.m */; };
 		0FD6E5AF255C04BB0060AF54 /* UIImageView+ZFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD6E58E255C04BB0060AF54 /* UIImageView+ZFCache.m */; };
-		0FD6E5B3255C06A50060AF54 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD6E5B2255C06A50060AF54 /* IJKMediaFramework.framework */; };
 		0FD6E5B7255C07A70060AF54 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD6E5B6255C07A70060AF54 /* libz.tbd */; };
 		0FD6E5BA255C07D50060AF54 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD6E5B9255C07D50060AF54 /* libc++.tbd */; };
 		0FD6E619255C08570060AF54 /* ZFHorizontalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD6E5C0255C08560060AF54 /* ZFHorizontalCollectionViewController.m */; };
@@ -296,7 +295,6 @@
 		0FD6E58E255C04BB0060AF54 /* UIImageView+ZFCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZFCache.m"; sourceTree = "<group>"; };
 		0FD6E58F255C04BB0060AF54 /* ZFNetworkSpeedMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFNetworkSpeedMonitor.h; sourceTree = "<group>"; };
 		0FD6E590255C04BB0060AF54 /* ZFLandScapeControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFLandScapeControlView.h; sourceTree = "<group>"; };
-		0FD6E5B2255C06A50060AF54 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		0FD6E5B6255C07A70060AF54 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		0FD6E5B9255C07D50060AF54 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		0FD6E5BF255C08560060AF54 /* ZFDouyinCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDouyinCollectionViewController.h; sourceTree = "<group>"; };
@@ -381,7 +379,6 @@
 			files = (
 				0FD6E5BA255C07D50060AF54 /* libc++.tbd in Frameworks */,
 				0FD6E5B7255C07A70060AF54 /* libz.tbd in Frameworks */,
-				0FD6E5B3255C06A50060AF54 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,7 +677,6 @@
 		0FD6E571255C04BB0060AF54 /* ijkplayer */ = {
 			isa = PBXGroup;
 			children = (
-				0FD6E5B2255C06A50060AF54 /* IJKMediaFramework.framework */,
 				0FD6E572255C04BB0060AF54 /* ZFIJKPlayerManager.h */,
 				0FD6E573255C04BB0060AF54 /* ZFIJKPlayerManager.m */,
 			);
