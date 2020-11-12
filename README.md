@@ -6,3 +6,6 @@ https://github.com/bilibili/ijkplayer
 
 集成明星播放器
 https://github.com/renzifeng/ZFPlayer
+
+IJKMediaFramework下载地址
+https://gitee.com/renzifeng/IJKMediaFramework
